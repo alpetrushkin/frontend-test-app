@@ -1,8 +1,8 @@
-import React from 'react';
+import styles from './style.module.css'
 
 const LoginPage = () => {
     return (
-       <h1>Login page</h1>
+       <h1 className={styles.color}>Login page</h1>
     );
 };
 
